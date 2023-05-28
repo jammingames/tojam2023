@@ -265,6 +265,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2469649901944181001}
     m_Modifications:
+    - target: {fileID: 651300940385934073, guid: 851cdd3945ac46744aa85b1131dfd816, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7387781696988754112, guid: 1249c59af6ed51846a3fed896697fa75, type: 3}
     - target: {fileID: 886878773207156208, guid: 851cdd3945ac46744aa85b1131dfd816, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -677,34 +681,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2469649901944181001}
     m_Modifications:
-    - target: {fileID: 5399916441166847730, guid: ad250c14ef12df6409602e342f89ef11, type: 3}
-      propertyPath: m_Size.x
-      value: 1.124
-      objectReference: {fileID: 0}
-    - target: {fileID: 5399916441166847730, guid: ad250c14ef12df6409602e342f89ef11, type: 3}
-      propertyPath: m_Size.y
-      value: 1.416
-      objectReference: {fileID: 0}
-    - target: {fileID: 5399916441166847730, guid: ad250c14ef12df6409602e342f89ef11, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 4482077337994629929, guid: 03e929905de01b34d85a6959e56f73bf, type: 3}
-    - target: {fileID: 5399916441166847730, guid: ad250c14ef12df6409602e342f89ef11, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5399916441166847730, guid: ad250c14ef12df6409602e342f89ef11, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5399916441166847730, guid: ad250c14ef12df6409602e342f89ef11, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5399916441166847730, guid: ad250c14ef12df6409602e342f89ef11, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8428788866658343822, guid: ad250c14ef12df6409602e342f89ef11, type: 3}
       propertyPath: m_Name
       value: Thing1
