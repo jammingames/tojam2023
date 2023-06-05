@@ -93,6 +93,50 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
+  - name: exit1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7959
+      y: 1433
+      width: 141
+      height: 136
+    spriteID: 1de70c21e964a0e4ab6f11a42226540f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 7959, y: 1433}
+    spritePosition: {x: 3356, y: 1857}
+  - name: exit2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7902
+      y: 1640
+      width: 141
+      height: 133
+    spriteID: 7a3b26ed52c3a274db37413e71c30cc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 7902, y: 1640}
+    spritePosition: {x: 3357, y: 1859}
   - name: closeButton1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -634,7 +678,40 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
     boneReadOnly: 0
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
   documentPivot: {x: 0, y: 0}
@@ -651,12 +728,32 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: exit1
+    spriteName: exit1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1de70c21e964a0e4ab6f11a42226540f
+    layerID: 0
+    mosaicPosition: {x: 7959, y: 1433}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: exit2
+    spriteName: exit2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7a3b26ed52c3a274db37413e71c30cc9
+    layerID: -548888952
+    mosaicPosition: {x: 7902, y: 1640}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: close button
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 0f0ca7c325ae9ca4f8ec10398180f662
-    layerID: 0
+    spriteID: 5618b8b2c192d054abac3f91ffe2ad92
+    layerID: -650306786
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
@@ -664,7 +761,7 @@ ScriptedImporter:
   - name: closeButton1
     spriteName: closeButton1
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 2
     spriteID: b84bc4855dfbd374cb792d26078da966
     layerID: -105863587
     mosaicPosition: {x: 7159, y: 1927}
@@ -674,7 +771,7 @@ ScriptedImporter:
   - name: closeButton2
     spriteName: closeButton2
     isGroup: 0
-    parentIndex: 0
+    parentIndex: 2
     spriteID: 1b39b47e68e29884d9e4595879ff4811
     layerID: -1671947528
     mosaicPosition: {x: 7492, y: 1927}
@@ -694,7 +791,7 @@ ScriptedImporter:
   - name: credit-type1
     spriteName: credit-type1
     isGroup: 0
-    parentIndex: 3
+    parentIndex: 5
     spriteID: 6211ded8a3dd2864b9af7b0af9c51971
     layerID: 993658261
     mosaicPosition: {x: 6376, y: 2133}
@@ -704,7 +801,7 @@ ScriptedImporter:
   - name: credit-typ2
     spriteName: credit-typ2
     isGroup: 0
-    parentIndex: 3
+    parentIndex: 5
     spriteID: caf928126a8824f4fa81631ff27e3d05
     layerID: -1711355621
     mosaicPosition: {x: 6859, y: 2133}
@@ -714,7 +811,7 @@ ScriptedImporter:
   - name: credit-bg-1
     spriteName: credit-bg-1
     isGroup: 0
-    parentIndex: 3
+    parentIndex: 5
     spriteID: b1d27b208a6178540926940f6b2debd5
     layerID: -1146964903
     mosaicPosition: {x: 4849, y: 1927}
@@ -724,7 +821,7 @@ ScriptedImporter:
   - name: credit-bg-2
     spriteName: credit-bg-2
     isGroup: 0
-    parentIndex: 3
+    parentIndex: 5
     spriteID: d1b85db94d939a343b60528b78e89e5f
     layerID: -1146964902
     mosaicPosition: {x: 3320, y: 1927}
@@ -744,7 +841,7 @@ ScriptedImporter:
   - name: BWS3
     spriteName: BWS3
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 10
     spriteID: b9b6d0422a4124e468f723ab5bb05289
     layerID: -218578439
     mosaicPosition: {x: 3320, y: 3593}
@@ -754,7 +851,7 @@ ScriptedImporter:
   - name: BWS2
     spriteName: BWS2
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 10
     spriteID: bd3b5f98aeed40548bbc91ca9108630e
     layerID: -1784662380
     mosaicPosition: {x: 3810, y: 3593}
@@ -764,7 +861,7 @@ ScriptedImporter:
   - name: BWS 1
     spriteName: BWS 1
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 10
     spriteID: bec557477dec01d4abb4debe12806b92
     layerID: 822629951
     mosaicPosition: {x: 4300, y: 3593}
@@ -774,7 +871,7 @@ ScriptedImporter:
   - name: BWS -excite1
     spriteName: BWS -excite1
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 10
     spriteID: b9d4cc8ee22b56f4388f529cbd3f3d34
     layerID: 1320860962
     mosaicPosition: {x: 4165, y: 3793}
@@ -784,7 +881,7 @@ ScriptedImporter:
   - name: BWS -excite2
     spriteName: BWS -excite2
     isGroup: 0
-    parentIndex: 8
+    parentIndex: 10
     spriteID: a8411ebfa034f4e4188392a3fa77117e
     layerID: -1408022393
     mosaicPosition: {x: 4165, y: 3939}
@@ -824,7 +921,7 @@ ScriptedImporter:
   - name: Folder 1 Copy
     spriteName: 
     isGroup: 1
-    parentIndex: 16
+    parentIndex: 18
     spriteID: 2864459afbfae2a4ab07fb096283a6d1
     layerID: 1829251794
     mosaicPosition: {x: 0, y: 0}
@@ -834,7 +931,7 @@ ScriptedImporter:
   - name: startbutton2
     spriteName: startbutton2
     isGroup: 0
-    parentIndex: 17
+    parentIndex: 19
     spriteID: 4ddd7437c2f20cc4c83dc6c37ad0f965
     layerID: 1720303092
     mosaicPosition: {x: 3320, y: 3793}
@@ -844,7 +941,7 @@ ScriptedImporter:
   - name: startbutton1
     spriteName: startbutton1
     isGroup: 0
-    parentIndex: 17
+    parentIndex: 19
     spriteID: 0d0566aaf8c9c7b4d9f9b1d99c3c2b24
     layerID: 2123587619
     mosaicPosition: {x: 3742, y: 3793}
@@ -854,7 +951,7 @@ ScriptedImporter:
   - name: Folder 1
     spriteName: 
     isGroup: 1
-    parentIndex: 16
+    parentIndex: 18
     spriteID: b75c6d66b3de3c040a3c67c06b71adae
     layerID: 909244939
     mosaicPosition: {x: 0, y: 0}
@@ -864,7 +961,7 @@ ScriptedImporter:
   - name: creditButton1
     spriteName: creditButton1
     isGroup: 0
-    parentIndex: 20
+    parentIndex: 22
     spriteID: 5934769c8b2ff1c49ba52e7cc570525a
     layerID: 1711686922
     mosaicPosition: {x: 6769, y: 1927}
@@ -874,7 +971,7 @@ ScriptedImporter:
   - name: creditbutton2
     spriteName: creditbutton2
     isGroup: 0
-    parentIndex: 20
+    parentIndex: 22
     spriteID: 87d04d6c0ef35b34d9643709fa3c92d5
     layerID: 1710604457
     mosaicPosition: {x: 6376, y: 1927}
